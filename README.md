@@ -17,7 +17,7 @@
 터미널을 열고 turbo-frame 이라는 프로젝트를 생성하고 디렉토리 이동을 하겠습니다. 
 
 ```bash
-rails new turbo-frame && cd turbo-frame
+rails new turbo-frame-loading-options && cd turbo-frame-loading-options
 ```
 
 bin/setup 명령을 실행하고
