@@ -14,7 +14,7 @@
 
 이해를 돕기 위해서 실제로 프로젝트를 생성해서 설명 하겠습니다. 
 
-터미널을 열고 turbo-frame 이라는 프로젝트를 생성하고 디렉토리 이동을 하겠습니다. 
+터미널을 열고 turbo-frame-loading-options 이라는 프로젝트를 생성하고 디렉토리 이동을 하겠습니다. 
 
 ```bash
 rails new turbo-frame-loading-options && cd turbo-frame-loading-options
