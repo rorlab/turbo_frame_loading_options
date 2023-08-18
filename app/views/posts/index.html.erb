@@ -11,4 +11,16 @@
   <% end %>
 </div>
 
-<%= link_to "New post", new_post_path %>
+<%= turbo_frame_tag "balloon-image", src: balloon_path do %>
+  <p>Eager Loading...</p>
+  <%= image_tag "loading.webp", height: '100' %>
+<% end %>
+
+<%= turbo_frame_tag "balloon-image", src: balloon_path, loading: 'lazy' do %>
+  <p>Lazy Loading...</p>
+  <%= image_tag "loading.webp", height: '100' %>
+<% end %>
+
+<p>
+  <%= link_to "New post", new_post_path %>
+</p>
